@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AwardsFerm.Api/AwardsFerm.Api.csproj" />
+    <Project Path="src/AwardsFerm.Core/AwardsFerm.Core.csproj" />
+    <Project Path="src/AwardsFerm.Infrastructure/AwardsFerm.Infrastructure.csproj" />
+    <Project Path="src/AwardsFerm.Worker/AwardsFerm.Worker.csproj" />
+  </Folder>
+  <Folder Name="/docker/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+</Solution>

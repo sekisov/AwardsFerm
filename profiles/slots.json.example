@@ -1,0 +1,16 @@
+{
+  "slots": [
+    {
+      "profileId": "session-001",
+      "label": "Сессия 1",
+      "scheduleEnabled": false,
+      "scheduledStartMsk": null
+    },
+    {
+      "profileId": "session-002",
+      "label": "Сессия 2",
+      "scheduleEnabled": false,
+      "scheduledStartMsk": "09:00"
+    }
+  ]
+}

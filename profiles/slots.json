@@ -1,0 +1,22 @@
+{
+  "slots": [
+    {
+      "profileId": "session-001",
+      "label": "\u0421\u0435\u0441\u0441\u0438\u044F 1",
+      "scheduleEnabled": true,
+      "scheduledStartMsk": "09:00"
+    },
+    {
+      "profileId": "session-002",
+      "label": "\u0421\u0435\u0441\u0441\u0438\u044F 2",
+      "scheduleEnabled": true,
+      "scheduledStartMsk": "07:00"
+    },
+    {
+      "profileId": "session-003",
+      "label": "\u0421\u0435\u0441\u0441\u0438\u044F 3",
+      "scheduleEnabled": false,
+      "scheduledStartMsk": null
+    }
+  ]
+}

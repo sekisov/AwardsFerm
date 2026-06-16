@@ -1,0 +1,12 @@
+{
+  "id": "session-001",
+  "name": "Desktop Chrome Win10 — Санкт-Петербург",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "locale": "ru-RU",
+  "timezone": "Europe/Moscow",
+  "latitude": 60.053085,
+  "longitude": 30.311729,
+  "proxyUrl": null
+}

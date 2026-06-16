@@ -1,0 +1,64 @@
+services:
+  worker:
+    build:
+      context: .
+      dockerfile: backend/AwardsFerm.Worker/Dockerfile
+    container_name: awardsferm-worker
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Api__BaseUrl: http://api:8080
+      BROWSER_HEADLESS: "false"
+      DISPLAY: ":99"
+      RSYA_OAUTH_TOKEN: ${RSYA_OAUTH_TOKEN:-}
+    volumes:
+      - ./profiles:/app/profiles
+    shm_size: "2gb"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 45s
+    networks:
+      - awardsferm
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/AwardsFerm.Api/Dockerfile
+    container_name: awardsferm-api
+    restart: unless-stopped
+    depends_on:
+      worker:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Worker__BaseUrl: http://worker:8081
+      YandexRsya__OAuthToken: ${RSYA_OAUTH_TOKEN:-}
+    expose:
+      - "8080"
+    ports:
+      - "${API_PORT:-55501}:8080"
+    networks:
+      - awardsferm
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-}
+        NGINX_CONFIG: nginx.compose.conf
+    container_name: awardsferm-frontend
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "${FRONTEND_PORT:-55502}:80"
+    networks:
+      - awardsferm
+
+networks:
+  awardsferm:
+    driver: bridge

@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-}
+        NGINX_CONFIG: nginx.conf
+    ports:
+      - "80:80"

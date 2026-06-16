@@ -1,0 +1,15 @@
+services:
+  worker:
+    build:
+      context: ..
+      dockerfile: backend/AwardsFerm.Worker/Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Api__BaseUrl: http://host.docker.internal:8080
+      BROWSER_HEADLESS: "false"
+      DISPLAY: ":99"
+    volumes:
+      - ../../profiles:/app/profiles
+    shm_size: "2gb"

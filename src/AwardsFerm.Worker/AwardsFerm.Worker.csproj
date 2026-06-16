@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AwardsFerm.Worker-4b7144c8-5b18-447b-97ef-5eaf05562116</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AwardsFerm.Core\AwardsFerm.Core.csproj" />
+    <ProjectReference Include="..\AwardsFerm.Infrastructure\AwardsFerm.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

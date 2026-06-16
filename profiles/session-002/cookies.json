@@ -1,0 +1,1732 @@
+[
+  {
+    "name": "pcssspb",
+    "value": "1",
+    "domain": "yastatic.net",
+    "path": "/safeframe-bundles/0.83/1-1-0",
+    "expires": 1.7820713E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "pcs3",
+    "value": "1",
+    "domain": "yastatic.net",
+    "path": "/safeframe-bundles/0.83/1-1-0",
+    "expires": 1.7816393E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "vpuid",
+    "value": "v9stx6zidi",
+    "domain": "frontend.vh.yandex.ru",
+    "path": "/player",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "igames",
+    "value": "ACYUQLFAL37DOEB6G4MNPED7VF7R2Z3FRAPLJYTDGRE7GVJPRFB3564QRQ4C2PFUA6UAEJ3F",
+    "domain": ".yandex.ru",
+    "path": "/games",
+    "expires": 1.8161128E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "preferred_home",
+    "value": "default",
+    "domain": "yandex.ru",
+    "path": "/games",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "viewport",
+    "value": "1_6_4_1920_1080_1920_1080",
+    "domain": "yandex.ru",
+    "path": "/games",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_games_csrf",
+    "value": "8dcacd74b2419575dcc65601a9fbb5ff504df7b7ebb74da7c738b9e610224c4e:1781552832",
+    "domain": ".yandex.ru",
+    "path": "/games",
+    "expires": 1.7816393E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yclid_1781552899699",
+    "value": "polytech.alabuga.ru:16358809607761035263:3282736851781551874",
+    "domain": ".yandex.ru",
+    "path": "/watch",
+    "expires": 1.781553E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yclid_1781552944934",
+    "value": "direct.yandex.ru/ads/products/landing/promocode/new5000:17127132963018637311:3282736851781551874",
+    "domain": ".yandex.ru",
+    "path": "/watch",
+    "expires": 1.7815532E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "nc",
+    "value": "opertopTooltipWasShown=true",
+    "domain": ".dzen.ru",
+    "path": "/news",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "as",
+    "value": "MHDjU2owVspPvYwXajBWyw",
+    "domain": "kimberlite.io",
+    "path": "/rtb",
+    "expires": 1.7821577E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "da",
+    "value": "",
+    "domain": "kimberlite.io",
+    "path": "/rtb",
+    "expires": 1.7821577E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "is_gdpr",
+    "value": "0",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161119E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "is_gdpr_b",
+    "value": "CIDlXhDuigMoAg==",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161119E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "pi",
+    "value": "/JmazAGuitZBySO6fGYHI8mmoV7KMxR/cKPdkBpneWOtBRvIobe6KLdPKcpGRpF9WTWdDP\u002BT1IMWPshofqUyzv9VySA=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161119E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "i",
+    "value": "d3\u002B9MMQwde48di8tVkmaQpGj76la2UEPg1kQqlNm30hIMKRmypr6u/3bcLw862TEVilc/ZjhDWzJQF3NmbEdigj57Ng=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161119E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yandexuid",
+    "value": "3282736851781551874",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yashr",
+    "value": "9084777621781551874",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130879E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "zencookie",
+    "value": "692037281781552755",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "zen_sso_checked",
+    "value": "1",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7827624E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "mda2_beacon",
+    "value": "1781552755991",
+    "domain": ".passport.yandex.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ys",
+    "value": "c_chck.401956603",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "mda2_domains",
+    "value": "dzen.ru",
+    "domain": ".passport.yandex.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "Session_id",
+    "value": "noauth:1781552755",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "sessar",
+    "value": "1.1908701.CiCCskg6SyG_IUVl0PfX4XR7CqTeXKMhHHYvkwXzdz3WVA.HGfegpHIXxj7SB-2WQuSIaGlJaPst9Qc8UgrGcv6FMw",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "dzen_sess_id",
+    "value": "noauth:1781552755",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yandex_login",
+    "value": "",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ys",
+    "value": "c_chck.401956603",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "i",
+    "value": "GG7rgjGpRCyOFxD\u002BjWXDon6d793kKpO4Z04sRW\u002BPulhs3t7aM2SNbT/CmntXCXEJqV7HLhtkl\u002B0zfUGSLNVwYrhQ4SQ=",
+    "domain": ".sso.dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yandexuid",
+    "value": "3282736851781551874",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "mda2_beacon",
+    "value": "1781552755992",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "sso_status",
+    "value": "sso.passport.yandex.ru:synchronized",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7815588E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "zen_vk_sso_checked",
+    "value": "1",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7827624E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "yabs-sid",
+    "value": "331673421781552756",
+    "domain": "mc.yandex.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yuidss",
+    "value": "3282736851781551874",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ymex",
+    "value": "2096912756.yrts.1781552756",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "receive-cookie-deprecation",
+    "value": "1",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yashr",
+    "value": "8653992101781552756",
+    "domain": ".sso.dzen.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "Zen-User-Data",
+    "value": "{%22zen-theme%22:%22light%22%2C%22zen-theme-setting%22:%22light%22}",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_yasc",
+    "value": "QIpINjFmS8GT7wrig4KT3VtTNFE7tcpIRnALp3wKFsMGksjSdYlvKk1L\u002Bs5b4GxIAqlNRw==",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "pi",
+    "value": "su1xqoLUk/n7xwgTgEUsiDwevFAaLxQvtWyqfQH9wBZIpqjdFE8/xmUxyTDOLC08TFHFqsAd7csI9DfsyZpz6aq0Z5s=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yashr",
+    "value": "2372836821781552757",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "PVID",
+    "value": "1-WaPR2ob1Ye0023ae1Jm5Ie:::0-0-0-f4aaf35-0-f4aaf35:CAASEOCi_cWlAUan216hsd67LUIaYNYvgX6WbJfVlhHI0qq11Bk8UPIfgT0cIso5S3_GrNTzv5UVBoxnWyUllPMYYQJD0fNalu6jJPaieY7DKGH4evtuUFIyQP55O17k-05OBpsefS3php5262hljFdwqbpN3A",
+    "domain": "ad.mail.ru",
+    "path": "/",
+    "expires": 1.8131752E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "is_auth_through_phone",
+    "value": "true",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_ym_uid",
+    "value": "1781552758407065389",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_d",
+    "value": "1781552758",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tmr_lvid",
+    "value": "708660aabd1059092691424f5a41c7b4",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.810324E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "tmr_lvidTS",
+    "value": "1781552758332",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.810324E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "vid",
+    "value": "6b3ce6733b16d877",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_ym_visorc",
+    "value": "b",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7815547E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_isad",
+    "value": "2",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816247E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "remixlang",
+    "value": "0",
+    "domain": ".vk.com",
+    "path": "/",
+    "expires": 1.813515E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "remixstlid",
+    "value": "9084280762430509803_aSX8bY1c0UkfQ1dAwDiBUO2U4Fvz0mOSpvqeNaif1w0",
+    "domain": ".vk.com",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "remixuas",
+    "value": "ZTA5MWQ2Mjk0ZTA1M2NiZGFlYmY2Mzk3",
+    "domain": ".vk.com",
+    "path": "/",
+    "expires": 1.8124869E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "remixstid",
+    "value": "508638229_yXgZwKD9AQeA7IjzHQEPH1FeFzngaUW3zdJZ5tdzGOD",
+    "domain": ".vk.com",
+    "path": "/",
+    "expires": 1.813473E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "is_online_cached",
+    "value": "false",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7815599E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "stable_city",
+    "value": "0",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8126568E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "has_stable_city",
+    "value": "true",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "zen_gid",
+    "value": "2",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "zen_vk_gid",
+    "value": "5560",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "front_fpid",
+    "value": "_5kpc3soc6STRiMuLD0zz",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "logical-device-width",
+    "value": "1920",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "logical-device-height",
+    "value": "1080",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "compliance-alert",
+    "value": "true",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7971048E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "gdpr",
+    "value": "0",
+    "domain": ".yastatic.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_isad",
+    "value": "2",
+    "domain": ".yastatic.net",
+    "path": "/",
+    "expires": 1.7816247E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_uid",
+    "value": "1781552763329774780",
+    "domain": ".yastatic.net",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_d",
+    "value": "1781552764",
+    "domain": ".yastatic.net",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "should_skip_auth_trap",
+    "value": "true",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "story-last-date-count",
+    "value": "2026-06-15T19:46:15.883Z",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7815572E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "news-fullscreen-showings-period-start-date",
+    "value": "2026-06-15T19:46:15.884Z",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "news-fullscreen-current-position",
+    "value": "1",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "is-news-fullscreen-waterfall-ended",
+    "value": "false",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8161128E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "count_news_trap_city",
+    "value": "0",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.8126568E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "news_geo_trap_city",
+    "value": "true",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "story-view-count",
+    "value": "3",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7815572E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "is_online_stat",
+    "value": "false",
+    "domain": ".dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "domain_sid",
+    "value": "_5kpc3soc6STRiMuLD0zz%3A1781552824454",
+    "domain": "dzen.ru",
+    "path": "/",
+    "expires": 1.7821576E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "tmr_detect",
+    "value": "0%7C1781552826921",
+    "domain": "dzen.ru",
+    "path": "/",
+    "expires": 1.7816392E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "PVID",
+    "value": "1-WaPR2ob1Ye0023ae1Jm5Ie:::0-0-0-f4aaf35-0-f4aaf7f:CAASEBtF1ctUpFpFEVzOLTKkB28aYDjsZa4CE-EfGY-GHHePx0b8aUb1DI6QiKap-mCFsqfiEJHhm0vIhZLR4JgSFwS12FTz3TBehU-zYqAr1WEzQcvp8fBkvtuDJNVFQ219B7NGp-hUDciGpOB3Ma8ZPAlbug",
+    "domain": "top-fwz1.mail.ru",
+    "path": "/",
+    "expires": 1.8131752E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_uid",
+    "value": "178155283340201712",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_ym_d",
+    "value": "1781552833",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130888E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "receive-cookie-deprecation",
+    "value": "1",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.813089E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_isad",
+    "value": "2",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.7816248E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "dc",
+    "value": "mow1",
+    "domain": ".betweendigital.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ss",
+    "value": "1",
+    "domain": ".betweendigital.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".acint.net",
+    "path": "/",
+    "expires": 1.7815534E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "aid",
+    "value": "fwAABGowVsq4ekMmSTCZApLzk4VILNFbbfguaHk6H5czLEqb",
+    "domain": ".acint.net",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ma_id",
+    "value": "5576074971781552842461",
+    "domain": ".mts.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "guid",
+    "value": "EFF166766A3056CAX1781552842",
+    "domain": ".tns-counter.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "cSyncDp14v4",
+    "value": "1781552842",
+    "domain": ".acint.net",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tuuid",
+    "value": "779e82e6-1977-51a6-8b5f-8ac8e16fdc02",
+    "domain": ".betweendigital.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "preadspector",
+    "value": "1",
+    "domain": ".adspector.io",
+    "path": "/",
+    "expires": 1.7841556E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "pi",
+    "value": "KU6Qo65kGm/GpikCVfJfUWwQMNHD0eIvns49U1cktnSJ4hR9VunLZ8dAtuyhDeq9BDw408SV1/b0X0QXvSZMLwcI3Dg=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "sspuid",
+    "value": "CkIDMWowVspcGQDRESQOAmEbUQckOZJvnaL93k0OHq/Ord3Q",
+    "domain": ".ssp-rtb.sape.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ma_last_sync",
+    "value": "1781552842530",
+    "domain": ".mts.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yashr",
+    "value": "9234358181781552842",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "viuserid",
+    "value": ".999GAq.niOrzjK7QgV6",
+    "domain": ".dmg.digitaltarget.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "uuid",
+    "value": "d604f57c-888a-4ee8-53bd-c0bfe3a42872",
+    "domain": ".buzzoola.com",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "vid",
+    "value": "ca2a1174470b04084847",
+    "domain": ".hybrid.ai",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "dspUid",
+    "value": "dsp_uid_e6444dd5-87e8-4f99-a413-83898533c5ff",
+    "domain": "events.myweb3id.io",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_TADUID",
+    "value": "12839300066432492765",
+    "domain": ".targetads.io",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tuuid",
+    "value": "17250b8e-2b28-4a05-8753-e05492f6fd8d",
+    "domain": ".360yield.com",
+    "path": "/",
+    "expires": 1.7893289E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "uid",
+    "value": "il5JnacgQ-OvNHQYDX36YgHLSgO5dVucKMZYKjMurQNaVXmUt81Errj0RTbpLTUaU",
+    "domain": ".new-programmatic.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "uid",
+    "value": "Zi1GIEECQ6K541Lz-hqbUQdILobzbud4p4HfiDwxsza7pQEGruusB5sEcUxwTJtL8",
+    "domain": ".targetrtb.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "u",
+    "value": "ajBWygiCYk4~JDPk407dGh1aUVwp8bgq3r9deM0",
+    "domain": "kimberlite.io",
+    "path": "/",
+    "expires": 1.7893289E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "gi_u",
+    "value": "edLdzUxBn1p.AikABlGezNMIhA",
+    "domain": ".adhigh.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "USER_ID",
+    "value": "cf8f6f72-e5c5-48df-98d3-4113d1fc53ae",
+    "domain": "pixel.dsp.onetarget.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yandexssp_sync",
+    "value": "L8e3",
+    "domain": ".adhigh.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "AFFICHE_W",
+    "value": "wapcgb9q@I-B42",
+    "domain": ".weborama-tech.ru",
+    "path": "/",
+    "expires": 1.8155081E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "urid",
+    "value": "f4YJTLI7eNFSXYBkIF6hB",
+    "domain": "px4.admon.pro",
+    "path": "/",
+    "expires": 1.8126569E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tuuid_lu",
+    "value": "1781552843",
+    "domain": ".360yield.com",
+    "path": "/",
+    "expires": 1.7893289E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "dspid",
+    "value": "f5b8e514-a5a6-4b3c-a87f-a3467dad15a6",
+    "domain": ".mts.ru",
+    "path": "/",
+    "expires": 1.8123113E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "reset_cookie",
+    "value": "1",
+    "domain": ".mts.ru",
+    "path": "/",
+    "expires": 1.8123113E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "uid",
+    "value": "811d5fa7-3715-469f-8f2c-63bd9e304f0e.6a3056cb.b601172d68dd16cc",
+    "domain": ".linkssp.ru",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "scm",
+    "value": "414.2542",
+    "domain": ".linkssp.ru",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "jcsuuid",
+    "value": "cwtqHK7O0cBsNQIkAlZM",
+    "domain": ".uuidksinc.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "afp_cookie",
+    "value": "gAAAAABqMFbLIlbal28Lhqgn3DVfaJBBD-trVSz5qJOjd75lqYajMBq-nCHaFEPSRZtmRQ9oshaMKhpvcN5aewPe4j_56hz-CDqlRR5om54_KG0V_t0ofIe6ikuAR_NwK8egHBbowGSjfOpW3X7bSL7VHK9DaWs2VTgLbeeJD8qDO8Kvf_p92R5nZZxIFpHhiA2p61bnUJnYe3bYHbvMOCaWzzfuBC96hg==$",
+    "domain": "ssp.al-adtech.com",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "suuid3",
+    "value": "IiQwNzM1Zjg5ZS02OGYzLTExZjEtYWFlNS0wMDI1OTBjODI0MzY*",
+    "domain": ".bumlam.com",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "mpid",
+    "value": "NmEzMDU2Y2IyNWM3NmFhMg==",
+    "domain": ".otm-r.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "user_id",
+    "value": "0bbeecc2-f45d-4278-878b-ef96672c17a8",
+    "domain": ".upravel.com",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "OAU",
+    "value": "OPUcedc56a0238146f28212bd253e95d63e",
+    "domain": ".opera.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__tt1",
+    "value": "1IHQcXpLT5Y9ouIwne1",
+    "domain": "tt.ttarget.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__tts",
+    "value": "EA",
+    "domain": "tt.ttarget.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__upin",
+    "value": "Xkg/IDlFT7CsWeuvVBm/lg",
+    "domain": ".aidata.io",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__upints",
+    "value": "1781552843",
+    "domain": ".aidata.io",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yaya",
+    "value": "1",
+    "domain": "x01.aidata.io",
+    "path": "/",
+    "expires": 1.7821577E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "bug",
+    "value": "1",
+    "domain": ".betweendigital.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__cf_bm",
+    "value": "RQwP7FBUFzULn8fn6LBoQr8y6bfulVlBJIkoJkPsqV0-1781552843.6036954-1.0.1.1-I54a.Tq998R80O7R.3yXIuuRvyVGjNhT_rCyMLnQRY0v8kUs_y6gq2iNTAJaU7743im1V.N7rcrH_DoDTHx4kNgJLBXODmBeX89qe4n2CZdQehvlZjRpEeRFNz77pl7L",
+    "domain": ".temu.com",
+    "path": "/",
+    "expires": 1.7815547E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "Rp",
+    "value": "786a4e4a281dd156373725cdeca16a3056cb654501864fb3",
+    "domain": ".rmp.rakuten.com",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "OAU",
+    "value": "OPUd9784bb6dd77407e863e384476c8494c",
+    "domain": ".rtbwave.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tuuid",
+    "value": "85da8c4f-5905-4fc1-ac3e-e00d9cf5da80",
+    "domain": ".bidswitch.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "c",
+    "value": "1781552844",
+    "domain": ".bidswitch.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "tuuid_lu",
+    "value": "1781552844",
+    "domain": ".bidswitch.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "demdex",
+    "value": "17958585112819991933664714443864081024",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1.7971049E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ruid",
+    "value": "hBQAAMxWMGoBAHtFA9grswB=",
+    "domain": ".rambler.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "proto_uid",
+    "value": "hBQAAMxWMGoBAHtFA9grswB=",
+    "domain": ".rambler.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "dpm",
+    "value": "17958585112819991933664714443864081024",
+    "domain": ".dpm.demdex.net",
+    "path": "/",
+    "expires": 1.7971049E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "bedrockplatform-usersync",
+    "value": "NG8sZqTSde6kW9Fw4gicHrm2-acjyQl6_ORlB7ugCck=",
+    "domain": ".bedrockplatform.bid",
+    "path": "/",
+    "expires": 1.7841449E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "btw_sync",
+    "value": "L8e3",
+    "domain": ".adhigh.net",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "ut",
+    "value": "ajBWzAAL10DuFmnIy9owFhKKh7U42VA6WeTodw==",
+    "domain": ".betweendigital.com",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_yasc",
+    "value": "rrwgZD3/DzCJiYT8nnsCcya2RvewRzu\u002BC\u002B5lCWPqN4kBPCJmrUdbYpURuEtlW5qU87pF77cDT7\u002BsSA==",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "__ddg9_",
+    "value": "95.55.182.230",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.781554E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "__ddg1_",
+    "value": "HILtRPICe93IPA0Ck1EQ",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "yclid",
+    "value": "16358809607761035263",
+    "domain": "polytech.alabuga.ru",
+    "path": "/",
+    "expires": 1.7893289E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 1
+  },
+  {
+    "name": "tmr_lvid",
+    "value": "8226bbbaeb89b1b6a2e3b47b6f6b172b",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.8103241E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "tmr_lvidTS",
+    "value": "1781552905201",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.8103241E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_ym_uid",
+    "value": "1781552905257210430",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_d",
+    "value": "1781552905",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "receive-cookie-deprecation",
+    "value": "1",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_isad",
+    "value": "2",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.781625E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ym_visorc",
+    "value": "w",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.7815547E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "__ddg10_",
+    "value": "1781552905",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.781554E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "__ddg8_",
+    "value": "nCyK1bulkcoDsv3o",
+    "domain": ".alabuga.ru",
+    "path": "/",
+    "expires": 1.781554E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "1f_uid",
+    "value": "bb166268-60d3-4039-8bd7-e6d1a5df8b36",
+    "domain": "track.onef.pro",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "dmpuid",
+    "value": "AZ7M0_3Jc929Q5Jk3499Bw",
+    "domain": ".gpmdata.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "AFFICHE_W",
+    "value": "N6--BaCXyHI388",
+    "domain": ".weborama.fr",
+    "path": "/",
+    "expires": 1.8155081E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yashr",
+    "value": "4395770861781552905",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8130889E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "pi",
+    "value": "RyUhSldarl9Rp3s4w8jI1Bm5vl4nUiQdBjWd7QSuj8qvgnX\u002BVfFh3GJlf0iVplR/ohetJX3rI4Qoy\u002B7JkeIfAvPn1hA=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "domain_sid",
+    "value": "034wuLmPinFgZy84RnsLi%3A1781552906605",
+    "domain": "polytech.alabuga.ru",
+    "path": "/",
+    "expires": 1.7821577E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "tmr_detect",
+    "value": "0%7C1781552907553",
+    "domain": "polytech.alabuga.ru",
+    "path": "/",
+    "expires": 1.7816393E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "PVID",
+    "value": "1-WaPR2ob1Ye0023ae1Jm5Ie:::0-0-0-f4aaf35-0-f4aafd6:CAASEOyf86H43NvPfO0w8T9qnAoaYOPuXd7jBqpjxS6ZzViW0vSgFR38EoYg-rm2SrlO9FREQufCVHjTTJF9-L_7k5lKzFT8hnPcaj4mm4aK_bhAt3CeG-ut90A11PzE0di7iOjR9YXv8T8dwZ17vrZAouBwBQ",
+    "domain": "top-fwz1.mail.ru",
+    "path": "/",
+    "expires": 1.8131753E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "VID",
+    "value": "1-WaPR2ob1Ye0023ae1Jm5Ie:::0-0-0-f4aaf35-0-f4aafd6:CAASEOyf86H43NvPfO0w8T9qnAoaYOPuXd7jBqpjxS6ZzViW0vSgFR38EoYg-rm2SrlO9FREQufCVHjTTJF9-L_7k5lKzFT8hnPcaj4mm4aK_bhAt3CeG-ut90A11PzE0di7iOjR9YXv8T8dwZ17vrZAouBwBQ",
+    "domain": ".mail.ru",
+    "path": "/",
+    "expires": 1.8131753E+09,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yclid_src",
+    "value": "direct.yandex.ru/ads/products/landing/promocode/new5000:17127132963018637311:3282736851781551874",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.7815962E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "yp",
+    "value": "1782157747.szm.1:1920x1080:1920x1080",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.8161129E+09,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "gdpr",
+    "value": "0",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "cookieon",
+    "value": "1",
+    "domain": "forms.yandex.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 0
+  },
+  {
+    "name": "forms_sid",
+    "value": "5CicTuyT4yokkgEN",
+    "domain": "forms.yandex.ru",
+    "path": "/",
+    "expires": 1.784145E+09,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_safari_itp",
+    "value": "1",
+    "domain": "forms.yandex.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": 1
+  },
+  {
+    "name": "_ym_visorc",
+    "value": "w",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.7815548E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "_ymab_param",
+    "value": "vUU5KO3KEpVeo-BQNNwPmKCUYHWGYR7VBnrm1takR1VIwdB6rKsRCCJra028lDooc3s3CJ6wxAkr6Kos3fwdv9HgM38",
+    "domain": "direct.yandex.ru",
+    "path": "/",
+    "expires": 1.813089E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  },
+  {
+    "name": "CSRF-TOKEN",
+    "value": "dce1a87b14812a6ce970b285a048c35f6eee6156%3A1781552973",
+    "domain": "forms.yandex.ru",
+    "path": "/",
+    "expires": 1.784145E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 0
+  },
+  {
+    "name": "bh",
+    "value": "EkEiR29vZ2xlIENocm9tZSI7dj0iMTQ5IiwgIkNocm9taXVtIjt2PSIxNDkiLCAiTm90KUE7QnJhbmQiO3Y9IjI0IhoFIng2NCIiECIxNDkuMC43ODI3LjEwNCIqAj8wMgIiIjoJIldpbmRvd3MiQgYiMTAuMCJKBCI2NCJSXSJHb29nbGUgQ2hyb21lIjt2PSIxNDkuMC43ODI3LjEwNCIsICJDaHJvbWl1bSI7dj0iMTQ5LjAuNzgyNy4xMDQiLCAiTm90KUE7QnJhbmQiO3Y9IjI0LjAuMC4wIloCPzBg0K7B0QZqHtzK4f8IktihsQOfz\u002BHqA/v68OcN6//99g\u002BK4MyHCA==",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "expires": 1.816113E+09,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": 2
+  }
+]

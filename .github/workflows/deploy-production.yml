@@ -1,0 +1,100 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: production-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.PROD_HOST }}
+          username: ${{ secrets.PROD_USER }}
+          key: ${{ secrets.PROD_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.PROD_SSH_PORT }}
+          command_timeout: 45m
+          debug: true
+          script_stop: true
+          script: |
+            set -eo pipefail
+
+            REPO_SSH_URL="git@github.com:${{ github.repository }}.git"
+            REPO_NAME="${{ github.event.repository.name }}"
+            BRANCH="main"
+
+            DEPLOY_PATH="${{ secrets.PROD_DEPLOY_PATH }}"
+            if [ -z "$DEPLOY_PATH" ]; then DEPLOY_PATH="/opt/$REPO_NAME"; fi
+
+            echo "==> Deploy path: $DEPLOY_PATH"
+
+            mkdir -p "$DEPLOY_PATH" || { echo "ERROR: mkdir failed"; exit 1; }
+            cd "$DEPLOY_PATH" || { echo "ERROR: cd failed"; exit 1; }
+
+            if [ ! -d .git ]; then
+              git init
+              git remote add origin "$REPO_SSH_URL"
+            else
+              git remote set-url origin "$REPO_SSH_URL"
+            fi
+
+            mkdir -p ~/.ssh
+            chmod 700 ~/.ssh
+            ssh-keyscan -t rsa,ecdsa,ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null || true
+
+            if ! git fetch --prune origin "refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"; then
+              echo "ERROR: git fetch failed"
+              exit 1
+            fi
+
+            if ! git checkout -f -B "$BRANCH" "origin/$BRANCH"; then
+              echo "ERROR: git checkout failed"
+              exit 1
+            fi
+
+            echo "==> Write .env.production"
+            umask 077
+            FE_PORT='${{ secrets.PROD_FRONTEND_PORT }}'
+            if [ -z "$FE_PORT" ]; then FE_PORT=55502; fi
+            API_PORT='${{ secrets.PROD_API_PORT }}'
+            if [ -z "$API_PORT" ]; then API_PORT=55501; fi
+            {
+              echo "FRONTEND_PORT=$FE_PORT"
+              echo "API_PORT=$API_PORT"
+              if [ -n '${{ secrets.RSYA_OAUTH_TOKEN }}' ]; then
+                echo "RSYA_OAUTH_TOKEN=${{ secrets.RSYA_OAUTH_TOKEN }}"
+              fi
+            } > .env.production
+
+            mkdir -p "$DEPLOY_PATH/profiles"
+            chmod -R a+rwX "$DEPLOY_PATH/profiles" 2>/dev/null || true
+
+            run_compose() {
+              if docker compose version >/dev/null 2>&1; then
+                docker compose "$@"
+              elif command -v docker-compose >/dev/null 2>&1; then
+                docker-compose "$@"
+              else
+                echo "ERROR: install Docker Compose"
+                exit 1
+              fi
+            }
+
+            if ! run_compose -f docker-compose.production.yml --env-file .env.production up -d --build --remove-orphans; then
+              echo "ERROR: docker compose up failed"
+              exit 1
+            fi
+
+            sleep 8
+            CODE=$(curl -sS -o /tmp/af_health.txt -w "%{http_code}" --max-time 30 "http://127.0.0.1:${API_PORT}/api/health" || echo "000")
+            echo "GET /api/health HTTP $CODE"
+            docker image prune -f || true
+            echo "==> Done"

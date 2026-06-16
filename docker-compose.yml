@@ -1,0 +1,53 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/api/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Worker__BaseUrl: http://worker:8081
+    depends_on:
+      worker:
+        condition: service_healthy
+    networks:
+      - awardsferm
+
+  worker:
+    build:
+      context: .
+      dockerfile: docker/worker/Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Api__BaseUrl: http://api:8080
+      BROWSER_HEADLESS: "false"
+      DISPLAY: ":99"
+    volumes:
+      - ./profiles:/app/profiles
+    shm_size: "2gb"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - awardsferm
+
+  web:
+    build:
+      context: .
+      dockerfile: docker/web/Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    networks:
+      - awardsferm
+
+networks:
+  awardsferm:
+    driver: bridge

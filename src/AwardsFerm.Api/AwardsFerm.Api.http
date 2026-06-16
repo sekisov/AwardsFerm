@@ -1,0 +1,6 @@
+@AwardsFerm.Api_HostAddress = http://localhost:5227
+
+GET {{AwardsFerm.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
